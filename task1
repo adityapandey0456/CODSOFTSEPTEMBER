@@ -1,0 +1,40 @@
+#Codsoft
+#for picking oprator
+print("Pick the choice for the opration\n")
+print("1 for add")
+print("2 for subtraction")
+print("3 for multiplication")
+print("4 for division")
+#loop part
+print("Do you want to oprate")
+
+while True:
+    ch = input("enter choice between y/n")
+    if ch=="y":
+        # input
+        c = int(input("enter the choice for opration"))
+        a = int(input("enter the first number"))
+        b = int(input("enter the second number"))
+        # logic part
+        if c == 1:
+            print("The add is", a + b)
+            print("do you want to continue")
+        elif c == 2:
+            print("The subtraction  is", a - b)
+            print("do you want to continue")
+        elif c == 3:
+            print("The multiplication is", a * b)
+            print("do you want to continue")
+        elif c == 4:
+            print("The division is", a / b)
+            print("do you want to continue")
+
+    else:
+        print("Thanks for using this calculator")
+        break
+
+
+
+
+
+
